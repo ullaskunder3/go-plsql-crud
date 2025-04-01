@@ -9,4 +9,6 @@ import (
 func main() {
 	fmt.Println("🚀 Starting the application...")
 	db.InitDB()
+	// apply migration
+	db.MigrateDB()
 }
